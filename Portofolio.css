@@ -1,0 +1,193 @@
+@charset "utf-8";
+body {
+  margin: 0px;
+}
+#navbar {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid rgb(190, 189, 189);
+  padding: 20px 7%;
+  justify-content: space-between;
+}
+#name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: chartreuse;
+}
+#navbarselainname {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+
+  /* padding-left: 600px; */
+  gap: 20px;
+}
+#navbarselainname div {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+}
+#profile img {
+  padding-left: 90px;
+  width: 25%;
+  padding-bottom: 40px;
+}
+#profile {
+  background-color: rgb(245, 238, 222);
+  display: flex;
+  text-align: right;
+  height: 500px;
+  padding-top: 40px;
+  border-bottom: 3px rgb(190, 189, 189) solid;
+}
+#paragraph {
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+}
+#introduction {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: grey;
+}
+#intro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: chartreuse;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.aboutme img {
+  width: 100%;
+  border-radius: 100%;
+}
+.aboutme {
+  background-color: rgb(245, 238, 222);
+  padding-top: 40px;
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 40px;
+  border-bottom: 3px rgb(190, 189, 189) solid;
+}
+.aboutme div {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+#paragraph2 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+#isiparagraph {
+  color: grey;
+}
+#judul {
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: chartreuse;
+  font-weight: bolder;
+}
+#hireme {
+  display: flex;
+  width: 115px;
+  background-color: rgb(245, 238, 222);
+  text-decoration: none;
+}
+#hireme button {
+  height: 55px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: rgb(245, 238, 222);
+  background-color: chartreuse;
+  font-weight: bolder;
+}
+#myexperience {
+  background-color: rgb(245, 238, 222);
+  padding: 40px 7%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: grey;
+  border-bottom: 3px solid rgb(190, 189, 189);
+}
+#isimystrongsuite {
+  font-size: 25px;
+  color: grey;
+  font-weight: lighter;
+}
+#isimyweakpoints {
+  font-size: 25px;
+  color: grey;
+  font-weight: lighter;
+}
+#judul2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  color: chartreuse;
+  font-weight: bolder;
+}
+#contactme {
+  background-color: rgb(245, 238, 222);
+  padding: 40px 7%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: grey;
+  border-bottom: 3px solid rgb(190, 189, 189);
+}
+#judul3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: chartreuse;
+  font-weight: bolder;
+}
+#contactimages div {
+  height: 40px;
+  padding-bottom: 20px;
+  display: flex;
+}
+#contactimages img {
+  height: 100%;
+}
+#letstalk {
+  background-color: rgb(245, 238, 222);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 150px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: grey;
+  border-bottom: 3px solid rgb(190, 189, 189);
+  display: flex;
+  flex-direction: column;
+}
+#judul4 {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  justify-content: space-between;
+}
+#isiinfo {
+  font-size: 20px;
+  color: grey;
+  font-weight: lighter;
+}
+#isiletstalk {
+  font-size: 20px;
+  color: grey;
+  font-weight: lighter;
+}
+#isiwhyme {
+  font-size: 20px;
+  color: grey;
+  font-weight: lighter;
+}
